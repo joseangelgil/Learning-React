@@ -43,7 +43,7 @@ export const StockList = () => {
           setStock(data)
         }
       } catch (err) {
-
+          console.log(err)
       }
     }
     fetchData()
